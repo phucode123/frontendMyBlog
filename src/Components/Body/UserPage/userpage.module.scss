@@ -1,0 +1,87 @@
+.userpage {
+    font-family: Arial, sans-serif;
+    // margin: 20px;
+}
+.backgroundimg{
+    // height: 200px;
+    width: 100%;
+    background-color: #007bff;
+    z-index: 99;
+    height: 200px;
+
+}
+.backgroundimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 99 I !important;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -75px auto 0;
+    //border: 5px solid white;
+    box-shadow: 3px rgba(0, 0, 0, 0.2);
+    background-color: #ddd;
+    z-index: 99999 !important;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.userinfo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.userinfo h1 {
+    margin: 10px 0;
+}
+
+.userinfo p {
+    margin: 5px 0;
+    color: gray;
+}
+
+.userinfo button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.userinfo button:hover {
+    background-color: #0056b3;
+}
+
+.userposts {
+    margin-top: 40px;
+}
+
+.userposts h2 {
+    margin-bottom: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    margin: 0 0 10px;
+}
+
+.post p {
+    margin: 0;
+}

@@ -1,0 +1,95 @@
+.createPost {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerForm {
+    margin: 0 10px;
+    background-color: #f9f9f9;
+}
+
+.headerForm .headerText {
+    display: block;
+    padding-bottom: 10px;   
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;  
+    color: #333;
+    text-align: center;
+}
+.headerForm .headerText h3{
+    margin: 10px 0;
+}
+
+.headerForm p {
+    // margin-bottom: 20px; /* Khoảng cách dưới đoạn văn */
+    font-size: 18px;
+    /* Kích thước chữ đoạn văn */
+    color: #000000;
+    font-weight: 550;
+    /* Màu chữ đoạn văn */
+}
+
+
+.contentPost {
+    width: 100%;
+    /* display: block; */
+    /* margin-right: 9px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.textPostCreate {
+    // width: 100%;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    outline: none;
+    /* Loại bỏ viền đen khi chọn */
+
+}
+
+.buttonSubmit {
+    /* Màu nền */
+    background-color: #4ca2af;
+    border: none;
+    /* Không viền */
+    color: #ffffff;
+    /* Màu chữ */
+    padding: 10px 22px;
+    /* Đệm */
+    text-align: center;
+    /* Canh giữa chữ */
+    text-decoration: none;
+    /* Không gạch chân */
+    display: inline-block;
+    /* Hiển thị khối nội tuyến */
+    font-size: 16px;
+    /* Kích thước chữ */
+    font-weight: 600;
+    margin: 4px 2px;
+    /* Lề */
+    cursor: pointer;
+    /* Con trỏ chuột */
+    border-radius: 12px;
+    /* Bo tròn góc */
+    // transition-duration: 0.4s;
+    /* Thời gian chuyển động */
+}
+
+.buttonSubmit:hover {
+    background-color: #4ca2afdf;
+    color: #ffffff;
+
+    /* Màu chữ khi hover */
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Đổ bóng khi hover */
+    //border: 2px solid #4CAF50; /* Viền khi hover */
+}
